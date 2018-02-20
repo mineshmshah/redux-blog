@@ -50,7 +50,6 @@ class PostsNew extends Component{
     return(
       <form onSubmit={handleSubmit(this.onSubmit.bind(this))}>
         <Field
-          //These are passed on
           label="Title for post"
           name="title"
           // We are not calling functions ourselves- this will be called later
